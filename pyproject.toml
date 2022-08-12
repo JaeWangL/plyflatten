@@ -12,6 +12,7 @@ target_version = ['py36', 'py37', 'py38', 'py39']
 python = "^3.9"
 numpy = "^1.23.1"
 affine = "^2.3.1"
+plyfile = "^0.7.4"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
