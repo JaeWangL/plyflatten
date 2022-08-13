@@ -54,6 +54,12 @@ setup(
     url=about["__url__"],
     author=about["__author__"],
     author_email=about["__author_email__"],
+    download_url="https://pypi.org/project/jw-plyflatten",
+    project_urls={
+        "Bug Tracker": "https://github.com/JaeWangL/plyflatten/issues",
+        "Source Code": "https://github.com/JaeWangL/plyflatten",
+    },
+    python_requires='>=3.6',
     packages=[package],
     install_requires=install_requires,
     extras_require=extras_require,
