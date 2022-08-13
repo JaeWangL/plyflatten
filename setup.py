@@ -5,7 +5,7 @@ from setuptools import setup
 from setuptools.command import build_py, develop
 
 here = os.path.abspath(os.path.dirname(__file__))
-package = "plyflatten"
+package = "jw_plyflatten"
 
 about = {}
 with open(os.path.join(here, package, "__about__.py"), "r", "utf-8") as f:
@@ -29,7 +29,7 @@ class CustomDevelop(develop.develop):
 
 class CustomBuildPy(build_py.build_py):
     """
-    Class needed for "pip install plyflatten"
+    Class needed for "pip install jw_plyflatten"
     """
 
     def run(self):
@@ -59,7 +59,7 @@ setup(
     extras_require=extras_require,
     entry_points="""
           [console_scripts]
-          plyflatten=plyflatten.cli:main
+          jw_plyflatten=jw_plyflatten.cli:main
       """,
     cmdclass={"develop": CustomDevelop, "build_py": CustomBuildPy},
 )

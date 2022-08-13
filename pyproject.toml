@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "jw-flatten"
+name = "jw_plyflatten"
 version = "0.1.0"
 description = "Take a series of ply files and produce a digital elevation map"
 authors = ["JaeWangL <jnso5072@outlook.kr>"]

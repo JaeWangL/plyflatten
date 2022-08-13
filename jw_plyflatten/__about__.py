@@ -1,4 +1,4 @@
-__title__ = "plyflatten"
+__title__ = "jw_plyflatten"
 __description__ = "Take a series of ply files and produce a digital elevation map"
 __url__ = "https://github.com/JaeWangL/plyflatten"
 __author__ = """JaeWang Lee"""
